@@ -1,0 +1,15 @@
+{
+  "name": "TOURIM Travel Agency",
+  "short_name": "TOURIM",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fff7ed",
+  "theme_color": "#ff6b21",
+  "icons": [
+    {
+      "src": "assets/tourim-logo-clean.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

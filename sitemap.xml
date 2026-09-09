@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://your-tourim-domain.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://your-tourim-domain.com/packages.html</loc><priority>0.9</priority></url>
+  <url><loc>https://your-tourim-domain.com/services.html</loc><priority>0.9</priority></url>
+  <url><loc>https://your-tourim-domain.com/packages/kashmir-group-tour</loc><priority>0.9</priority></url>
+  <url><loc>https://your-tourim-domain.com/destinations.html</loc><priority>0.9</priority></url>
+  <url><loc>https://your-tourim-domain.com/destinations/darjeeling</loc><priority>0.8</priority></url>
+  <url><loc>https://your-tourim-domain.com/hotels.html</loc><priority>0.7</priority></url>
+  <url><loc>https://your-tourim-domain.com/blogs.html</loc><priority>0.7</priority></url>
+  <url><loc>https://your-tourim-domain.com/offers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://your-tourim-domain.com/gallery.html</loc><priority>0.6</priority></url>
+  <url><loc>https://your-tourim-domain.com/about.html</loc><priority>0.6</priority></url>
+  <url><loc>https://your-tourim-domain.com/contact.html</loc><priority>0.9</priority></url>
+  <url><loc>https://tourim.example/policy.html</loc></url>
+</urlset>

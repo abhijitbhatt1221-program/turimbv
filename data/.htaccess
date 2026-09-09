@@ -1,0 +1,3 @@
+# Prevent direct browser access to stored TOURIM data files.
+Require all denied
+Deny from all

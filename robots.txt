@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /data/
+Disallow: /backups/
+Disallow: /ADMIN
+Sitemap: https://your-tourim-domain.com/sitemap.xml

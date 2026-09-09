@@ -1,0 +1,960 @@
+{
+  "settings": {
+    "websiteName": "TOURIM",
+    "tagline": "See the world, Feel with TOURIM",
+    "email": "owner.tourim@gmail.com",
+    "phone": "7384732179",
+    "phone2": "8972076635",
+    "whatsapp": "7384732179",
+    "address": "Ashokenagar Kachua More, North 24 Parganas, 743272",
+    "currency": "INR",
+    "footerCredit": "Developed by Abhijit Bhattacharjee",
+    "adminEmail": "owner.tourim@gmail.com",
+    "adminPassword": "",
+    "adminPasswordHash": "$2y$12$pb1jPA3y/Y5Vit7dzT2SGOEKeMAL/Eg7xpecOJ2kp9hKeM4OUpfUK"
+  },
+  "homepage": {
+    "heroTitle": "Discover beautiful journeys with TOURIM",
+    "heroSubtitle": "Premium domestic and international tour packages, customised for families, groups, honeymooners and corporate travellers.",
+    "heroPrimary": "Explore Packages",
+    "heroSecondary": "Get Free Quote",
+    "offerTitle": "Special Kashmir Group Tour",
+    "offerSubtitle": "Durga Puja departure from Kolkata. Limited seats with curated hotel, transport and sightseeing support.",
+    "offerButton": "View Offer",
+    "showHero": true,
+    "showPackages": true,
+    "showDestinations": true,
+    "showHotels": true,
+    "showBlogs": true,
+    "showOffer": true
+  },
+  "packages": [
+    {
+      "id": "pkg_1",
+      "title": "Kashmir Group Tour",
+      "destination": "Kashmir",
+      "duration": "9 Nights / 10 Days",
+      "price": 13990,
+      "category": "Group Tour",
+      "status": "published",
+      "featured": true,
+      "bookings": 240,
+      "image": "assets/travel/kashmir.jpg",
+      "short": "Kolkata to Kolkata Kashmir group package with houseboat stay and Shikara ride.",
+      "itinerary": "Srinagar, Sonmarg, Gulmarg, Pahalgam, Houseboat stay and return journey.",
+      "inclusions": "Train sleeper, hotel, meals as per plan, private vehicle in Kashmir.",
+      "exclusions": "Personal expenses, entry fees, pony rides, GST if applicable.",
+      "route": "Srinagar, Sonmarg, Gulmarg, Pahalgam, Houseboat stay and return journey."
+    },
+    {
+      "id": "pkg_2",
+      "title": "Goa Beach Holiday",
+      "destination": "Goa",
+      "duration": "4 Nights / 5 Days",
+      "price": 9990,
+      "category": "Beach",
+      "status": "published",
+      "featured": true,
+      "bookings": 205,
+      "image": "assets/travel/goa.jpg",
+      "short": "Relaxing Goa beach holiday with hotel, sightseeing and leisure time.",
+      "itinerary": "North Goa, South Goa, beach leisure and market visit.",
+      "inclusions": "Hotel, breakfast, sightseeing transfers.",
+      "exclusions": "Flights, personal expenses, water sports.",
+      "route": "North Goa, South Goa, beach leisure and market visit."
+    },
+    {
+      "id": "pkg_3",
+      "title": "Himalayan Trek",
+      "destination": "Himachal",
+      "duration": "5 Nights / 6 Days",
+      "price": 16500,
+      "category": "Adventure",
+      "status": "published",
+      "featured": true,
+      "bookings": 178,
+      "image": "assets/travel/himalayan-trek.jpg",
+      "short": "Adventure-focused Himalayan escape with nature, valleys and scenic drives.",
+      "itinerary": "Delhi, Manali, Solang, Atal Tunnel and local sightseeing.",
+      "inclusions": "Hotel, breakfast, dinner, vehicle, tour support.",
+      "exclusions": "Adventure activities, permits, airfare.",
+      "route": "Delhi, Manali, Solang, Atal Tunnel and local sightseeing."
+    },
+    {
+      "id": "pkg_4",
+      "title": "Dubai City Tour",
+      "destination": "Dubai",
+      "duration": "4 Nights / 5 Days",
+      "price": 44990,
+      "category": "International",
+      "status": "published",
+      "featured": true,
+      "bookings": 153,
+      "image": "assets/travel/dubai-city-tour.jpg",
+      "short": "Dubai and Abu Dhabi package with Dhow Cruise, Desert Safari and Burj Khalifa.",
+      "itinerary": "Dubai arrival, city tour, desert safari, Abu Dhabi excursion and airport drop.",
+      "inclusions": "Hotel breakfast, SIC transfers, major tours.",
+      "exclusions": "Visa, flights, tourism dirham, personal expenses.",
+      "route": "Dubai arrival, city tour, desert safari, Abu Dhabi excursion and airport drop."
+    },
+    {
+      "id": "pkg_5",
+      "title": "Kerala Backwaters",
+      "destination": "Kerala",
+      "duration": "5 Nights / 6 Days",
+      "price": 18990,
+      "category": "Family",
+      "status": "published",
+      "featured": true,
+      "bookings": 140,
+      "image": "assets/travel/kerala.jpg",
+      "short": "Scenic Kerala package with hills, backwaters, houseboat and beaches.",
+      "itinerary": "Munnar, Thekkady, Alleppey houseboat and Cochin.",
+      "inclusions": "Hotel, breakfast, houseboat, vehicle.",
+      "exclusions": "Flights, entry tickets, personal expenses.",
+      "route": "Munnar, Thekkady, Alleppey houseboat and Cochin."
+    },
+    {
+      "id": "pkg_6",
+      "title": "Darjeeling Monsoon Escape",
+      "destination": "Darjeeling",
+      "duration": "3N / 4D",
+      "price": 6500,
+      "category": "Hill Station",
+      "status": "published",
+      "featured": true,
+      "bookings": 116,
+      "image": "assets/travel/darjeeling.jpg",
+      "short": "Misty 3N/4D Darjeeling & Mirik monsoon escape with tea gardens, Tiger Hill, and cloud-kissed Himalayan views.",
+      "itinerary": "Day 1: Arrival at NJP / Bagdogra, scenic uphill drive through pine & tea gardens to Darjeeling, hotel check-in, evening leisure walk at Mall Road & Chowrasta. Day 2: Early morning Tiger Hill sunrise view, Batasia Loop, Ghoom Monastery, followed by Himalayan Mountaineering Institute (HMI), P.N. Zoo and Happy Valley Tea Estate. Day 3: Full-day scenic excursion to Mirik Lake (Sumendu Lake), pine forest walk, Pashupati viewpoint, and return to Darjeeling. Day 4: Morning breakfast, check-out, scenic drive via Kurseong tea hills to NJP railway station / Bagdogra airport for departure.",
+      "inclusions": "Hotel accommodation (3 Nights), daily breakfast, dedicated private vehicle for transfers & sightseeing, driver allowances, toll and parking.",
+      "exclusions": "Train/air fare, entry tickets to monuments & zoo, personal expenses, meals not specified, joy ride on Toy Train.",
+      "route": "NJP / Bagdogra → Darjeeling → Tiger Hill & Local Sightseeing → Mirik Lake → Kurseong → NJP / Bagdogra"
+    },
+    {
+      "id": "pkg_7",
+      "title": "Andaman Island Delight",
+      "destination": "Andaman",
+      "duration": "5 Nights / 6 Days",
+      "price": 14990,
+      "category": "Island",
+      "status": "published",
+      "featured": true,
+      "bookings": 132,
+      "image": "assets/travel/andaman.jpg",
+      "short": "Beaches, islands, cellular jail, snorkeling options and relaxed tropical stay.",
+      "itinerary": "Port Blair, Havelock, Radhanagar Beach, Neil Island and local sightseeing.",
+      "inclusions": "Hotel, breakfast, ferry assistance, sightseeing transfers.",
+      "exclusions": "Flights, water activities, permits if any, personal expenses.",
+      "route": "Port Blair, Havelock, Radhanagar Beach, Neil Island and local sightseeing."
+    },
+    {
+      "id": "pkg_8",
+      "title": "Bali Honeymoon Luxury",
+      "destination": "Bali",
+      "duration": "5 Nights / 6 Days",
+      "price": 33333,
+      "category": "Honeymoon",
+      "status": "published",
+      "featured": true,
+      "bookings": 98,
+      "image": "assets/travel/bali.jpg",
+      "short": "Romantic Bali honeymoon with villa options, temples, beaches and add-on experiences.",
+      "itinerary": "Kuta, Ubud, Nusa Penida optional, Uluwatu, Tanah Lot and leisure.",
+      "inclusions": "Hotel, breakfast, airport transfers, selected sightseeing.",
+      "exclusions": "Flights, visa, personal expenses, optional watersports.",
+      "route": "Kuta, Ubud, Nusa Penida optional, Uluwatu, Tanah Lot and leisure."
+    },
+    {
+      "id": "pkg_9",
+      "title": "Sikkim East Explorer",
+      "destination": "Sikkim",
+      "duration": "3 Nights / 4 Days",
+      "price": 6800,
+      "category": "Family",
+      "status": "published",
+      "featured": false,
+      "bookings": 87,
+      "image": "assets/travel/sikkim.jpg",
+      "short": "Gangtok stay with lake, monastery, viewpoints and family-friendly hill travel.",
+      "itinerary": "NJP/Bagdogra pickup, Gangtok, Tsomgo Lake optional, local sightseeing and drop.",
+      "inclusions": "Hotel, breakfast, vehicle and basic tour assistance.",
+      "exclusions": "Permits, Nathula pass charges, entry fees, meals not mentioned.",
+      "route": "NJP/Bagdogra pickup, Gangtok, Tsomgo Lake optional, local sightseeing and drop."
+    },
+    {
+      "id": "pkg_10",
+      "title": "Meghalaya Nature Trail",
+      "destination": "Meghalaya",
+      "duration": "5 Nights / 6 Days",
+      "price": 11550,
+      "category": "Nature",
+      "status": "published",
+      "featured": false,
+      "bookings": 76,
+      "image": "assets/travel/meghalaya.jpg",
+      "short": "Waterfalls, caves, living root bridges and scenic North East experiences.",
+      "itinerary": "Shillong, Cherrapunji, Mawlynnong, Dawki, local sightseeing and Guwahati drop.",
+      "inclusions": "Hotel, breakfast, vehicle, driver allowance, sightseeing route.",
+      "exclusions": "Flights/train, boating, entry tickets, personal expenses.",
+      "route": "Shillong, Cherrapunji, Mawlynnong, Dawki, local sightseeing and Guwahati drop."
+    },
+    {
+      "id": "pkg_dooars_tour", "title": "Dooars Tour", "destination": "Dooars", "duration": "3N / 4D", "price": 4990, "category": "Nature", "status": "published", "featured": false, "bookings": 0, "image": "assets/travel/dooars.jpg", "short": "Dooars forest-area stay with sightseeing and nearby attractions.", "itinerary": "Day 1: Arrival and transfer to Dooars. Day 2: Dooars sightseeing and forest area. Day 3: Local sightseeing and nearby attractions. Day 4: Departure.", "inclusions": "Accommodation, breakfast and local transfers as per itinerary.", "exclusions": "Forest permits, safari charges, entry fees and personal expenses.", "route": "Arrival → Dooars → Forest Area → Local Attractions → Departure"
+    },
+    {
+      "id": "pkg_darjeeling_escape", "title": "Darjeeling Hill Escape", "destination": "Darjeeling", "duration": "2N / 3D", "price": 4990, "category": "Hill Station", "status": "published", "featured": false, "bookings": 0, "image": "assets/travel/darjeeling.jpg", "short": "A crisp 2N/3D Darjeeling hill holiday featuring Tiger Hill sunrise, Batasia Loop, tea garden vistas and Mall Road leisure.", "itinerary": "Day 1: Arrival at NJP / Bagdogra, scenic mountain drive to Darjeeling, hotel check-in, evening at leisure walking along Chowrasta and the Mall. Day 2: Early morning drive to Tiger Hill for majestic Kanchenjunga sunrise, Batasia Loop, Ghoom Monastery; post breakfast visit HMI, P.N. Zoo and local tea estate. Day 3: Breakfast with valley views, check-out, and scenic transfer back to NJP Railway Station / Bagdogra Airport for departure.", "inclusions": "Hotel accommodation (2 Nights), daily breakfast, private vehicle for transfers and sightseeing, driver allowances, toll and parking.", "exclusions": "Train/flight tickets, entry fees to monuments/zoo, meals other than breakfast, personal expenses, Toy Train ride.", "route": "NJP / Bagdogra → Darjeeling → Tiger Hill & Ghoom → Batasia Loop → NJP / Bagdogra"
+    },
+    {
+      "id": "pkg_sittong_offbeat", "title": "Sittong & Offbeat Darjeeling", "destination": "Darjeeling", "duration": "2N / 3D", "price": 4990, "category": "Offbeat", "status": "published", "featured": false, "bookings": 0, "image": "assets/travel/sittong-offbeat-darjeeling-escape.jpg", "short": "Peaceful 2N/3D orange orchard and Himalayan village getaway covering Sittong, Ahaldhara viewpoint, Namthing Pokhri and Takdah pine heritage.", "itinerary": "Day 1: Pickup from NJP Railway Station / Bagdogra Airport, scenic drive along Teesta valley to Sittong (the Orange Village). Check-in at traditional eco-homestay, village walk through orange orchards, and sunset at Ahaldhara Viewpoint. Day 2: Morning nature walk to Namthing Pokhri (Salamander habitat). Post breakfast, explore Takdah pine heritage trails, British colonial bungalows, and Tinchuley valley viewpoints. Day 3: Morning breakfast with valley mist, check-out, and scenic return transfer to NJP Railway Station / Bagdogra Airport for departure.", "inclusions": "Homestay/resort accommodation (2 Nights), daily breakfast & dinner, dedicated private vehicle for transfers and sightseeing, driver allowances, toll and parking.", "exclusions": "Train/flight tickets, personal expenses, entry fees if applicable, meals not mentioned.", "route": "NJP / Bagdogra → Sittong → Ahaldhara Viewpoint → Namthing Pokhri → Takdah & Tinchuley → NJP / Bagdogra"
+    },
+    {
+      "id": "pkg_silk_route_explorer", "title": "Silk Route Explorer", "destination": "Sikkim", "duration": "3N / 4D", "price": 7690, "category": "Explorer", "status": "published", "featured": false, "bookings": 0, "image": "assets/travel/sikkim.jpg", "short": "Explore Zuluk, Thambi View, Nathang Valley and the historic Silk Route.", "itinerary": "Day 1: Arrival and transfer to the Silk Route. Day 2: Zuluk and Thambi View. Day 3: Nathang Valley, Damsang Valley and nearby sights. Day 4: Departure.", "inclusions": "Accommodation, breakfast and local transfers as per itinerary.", "exclusions": "Permits, entry fees, personal expenses and travel to pickup point.", "route": "Arrival → Silk Route → Zuluk → Thambi View → Nathang Valley → Departure"
+    },
+    {
+      "id": "pkg_north_sikkim_tour", "title": "North Sikkim Tour", "destination": "North Sikkim", "duration": "4N / 5D", "price": 7990, "category": "Adventure", "status": "published", "featured": false, "bookings": 0, "image": "assets/travel/sikkim.jpg", "short": "A North Sikkim journey through Gangtok, Lachen, Gurudongmar and Lachung.", "itinerary": "Day 1: Gangtok arrival. Day 2: Gangtok to Lachen. Day 3: Gurudongmar and transfer to Lachung. Day 4: Lachung sightseeing. Day 5: Return and departure.", "inclusions": "Accommodation, breakfast and local transfers as per itinerary.", "exclusions": "Permits, entry fees, personal expenses and travel to pickup point.", "route": "Gangtok → Lachen → Gurudongmar → Lachung → Departure"
+    },
+    {
+      "id": "pkg_kashmir_paradise", "title": "Kashmir Paradise", "destination": "Kashmir", "duration": "5N / 6D", "price": 10990, "category": "Family", "status": "published", "featured": false, "bookings": 0, "image": "assets/travel/kashmir.jpg", "short": "A six-day Kashmir holiday featuring Srinagar, Gulmarg and local excursions.", "itinerary": "Day 1: Srinagar arrival. Day 2: Srinagar sightseeing. Day 3: Gulmarg excursion. Day 4: Kashmir local excursion. Day 5: Leisure and local sightseeing. Day 6: Departure.", "inclusions": "Accommodation, breakfast and local transfers as per itinerary.", "exclusions": "Flights or rail, entry fees, activity charges and personal expenses.", "route": "Srinagar → Local Sightseeing → Gulmarg → Kashmir Excursion → Departure"
+    },
+    {
+      "id": "pkg_north_bengal_offbeat", "title": "Offbeat North Bengal", "destination": "North Bengal", "duration": "2N / 3D", "price": 4500, "category": "Offbeat", "status": "published", "featured": false, "bookings": 0, "image": "assets/travel/north-bengal.jpg", "short": "Serene 2N/3D journey through offbeat North Bengal covering Samsing tea valleys, Suntalekhola suspension bridge, Jhalong river valley, and Bindu dam on the Bhutan border.", "itinerary": "Day 1: Pickup from NJP Railway Station / New Mal Junction / Bagdogra Airport. Drive through lush Dooars tea estates to Samsing / Suntalekhola eco-resort or homestay. Check-in, relax, and take an afternoon walk to the hanging footbridge across Suntalekhola river. Evening at leisure amidst forest sounds. Day 2: Morning excursion to Jhalong on the banks of Jaldhaka River. Proceed to Bindu, the last village on the Indo-Bhutan border with views of the Jaldhaka Hydel Project and cardamom hills. Return via Rocky Island on the Murti River for photo stops and evening sunset. Day 3: Morning breakfast surrounded by tea garden mist, check-out, and scenic return transfer to NJP Railway Station / New Mal Junction for onward journey.", "inclusions": "Eco-resort/homestay accommodation (2 Nights), daily breakfast & dinner, dedicated private vehicle for transfers and sightseeing, driver allowances, toll and parking.", "exclusions": "Train/flight tickets, forest entry permits or safari charges if applicable, personal expenses, meals not specified.", "route": "NJP / New Mal → Samsing → Suntalekhola → Jhalong → Bindu (Bhutan Border) → Rocky Island → NJP / New Mal"
+    }
+  ],
+  "destinations": [
+    {
+      "id": "dest_1",
+      "name": "Kashmir",
+      "country": "India",
+      "region": "North India",
+      "status": "published",
+      "image": "assets/travel/kashmir.jpg",
+      "short": "Heavenly valleys, snow peaks, gardens and houseboats.",
+      "bestTime": "March to October"
+    },
+    {
+      "id": "dest_2",
+      "name": "Bali",
+      "country": "Indonesia",
+      "region": "International",
+      "status": "published",
+      "image": "assets/travel/bali.jpg",
+      "short": "Romantic beaches, temples, villas and honeymoon experiences.",
+      "bestTime": "April to October"
+    },
+    {
+      "id": "dest_3",
+      "name": "Darjeeling",
+      "country": "India",
+      "region": "East India",
+      "status": "published",
+      "image": "assets/travel/darjeeling.jpg",
+      "short": "Tea gardens, toy train, Tiger Hill and beautiful mountain weather.",
+      "bestTime": "March to June, October to December"
+    },
+    {
+      "id": "dest_4",
+      "name": "Dubai",
+      "country": "UAE",
+      "region": "International",
+      "status": "published",
+      "image": "assets/travel/dubai.jpg",
+      "short": "Luxury skyline, desert safari, shopping and family attractions.",
+      "bestTime": "November to March"
+    },
+    {
+      "id": "dest_5",
+      "name": "Andaman",
+      "country": "India",
+      "region": "Island",
+      "status": "published",
+      "image": "assets/travel/andaman.jpg",
+      "short": "Crystal beaches, islands, snorkelling and relaxed tropical stays.",
+      "bestTime": "October to May"
+    },
+    {
+      "id": "dest_6",
+      "name": "Sikkim",
+      "country": "India",
+      "region": "North East India",
+      "status": "published",
+      "image": "assets/travel/sikkim.jpg",
+      "short": "Monasteries, lakes, mountain passes and peaceful hill towns.",
+      "bestTime": "March to May, October to December"
+    },
+    {
+      "id": "dest_7",
+      "name": "Kerala",
+      "country": "India",
+      "region": "South India",
+      "status": "published",
+      "image": "assets/travel/kerala.jpg",
+      "short": "Backwaters, hill stations, houseboats and family-friendly nature experiences.",
+      "bestTime": "September to March"
+    },
+    {
+      "id": "dest_8",
+      "name": "Goa",
+      "country": "India",
+      "region": "West India",
+      "status": "published",
+      "image": "assets/travel/goa.jpg",
+      "short": "Beaches, nightlife, churches, markets and relaxed coastal holidays.",
+      "bestTime": "November to February"
+    },
+    {
+      "id": "dest_9",
+      "name": "Meghalaya",
+      "country": "India",
+      "region": "North East India",
+      "status": "published",
+      "image": "assets/travel/meghalaya.jpg",
+      "short": "Waterfalls, caves, green hills, clean villages and river experiences.",
+      "bestTime": "October to April"
+    }
+  ],
+  "hotels": [
+    {
+      "id": "hotel_1",
+      "name": "Maya Inn Hotel",
+      "destination": "Gangtok",
+      "category": "3 Star",
+      "meal": "Breakfast",
+      "price": 2500,
+      "status": "published",
+      "image": "assets/travel/goa.jpg",
+      "amenities": "Wifi, Breakfast, Family Rooms"
+    },
+    {
+      "id": "hotel_2",
+      "name": "Demattrie Hotel",
+      "destination": "Kolkata",
+      "category": "3 Star",
+      "meal": "Breakfast",
+      "price": 3750,
+      "status": "published",
+      "image": "assets/travel/darjeeling.jpg",
+      "amenities": "AC Room, Breakfast, City Location"
+    },
+    {
+      "id": "hotel_3",
+      "name": "Deluxe Houseboat",
+      "destination": "Srinagar",
+      "category": "Deluxe",
+      "meal": "MAP",
+      "price": 4200,
+      "status": "published",
+      "image": "assets/travel/kashmir.jpg",
+      "amenities": "Lake View, Dinner, Shikara Support"
+    },
+    {
+      "id": "hotel_4",
+      "name": "Kashmir Valley Comfort Stay",
+      "destination": "Srinagar",
+      "category": "3 Star",
+      "meal": "MAP",
+      "price": 3200,
+      "status": "published",
+      "image": "assets/travel/kashmir.jpg",
+      "amenities": "Wifi, Dinner, Garden View, Family Room"
+    },
+    {
+      "id": "hotel_5",
+      "name": "Goa Beachside Resort",
+      "destination": "Goa",
+      "category": "3 Star",
+      "meal": "CP",
+      "price": 3600,
+      "status": "published",
+      "image": "assets/travel/goa.jpg",
+      "amenities": "Pool, Breakfast, Beach Access, AC Room"
+    },
+    {
+      "id": "hotel_6",
+      "name": "Bali Couple Villa",
+      "destination": "Bali",
+      "category": "4 Star",
+      "meal": "Breakfast",
+      "price": 6200,
+      "status": "published",
+      "image": "assets/travel/bali.jpg",
+      "amenities": "Private Pool, Breakfast, Honeymoon Decor"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "blog_1",
+      "title": "Best Time to Visit Kashmir",
+      "category": "Guide",
+      "author": "TOURIM Team",
+      "status": "published",
+      "image": "assets/travel/kashmir.jpg",
+      "excerpt": "A simple guide for travellers planning Kashmir from Kolkata."
+    },
+    {
+      "id": "blog_2",
+      "title": "How to Choose a Family Tour Package",
+      "category": "Travel Tips",
+      "author": "TOURIM Team",
+      "status": "published",
+      "image": "assets/travel/goa.jpg",
+      "excerpt": "Things to check before booking hotels, transfers and sightseeing."
+    },
+    {
+      "id": "blog_3",
+      "title": "Monsoon in Darjeeling",
+      "category": "Hill Travel",
+      "author": "TOURIM Team",
+      "status": "published",
+      "image": "assets/travel/darjeeling.jpg",
+      "excerpt": "Tea gardens, misty roads and beautiful local sightseeing ideas."
+    },
+    {
+      "id": "blog_4",
+      "title": "Documents Needed Before Booking an International Tour",
+      "category": "International",
+      "author": "TOURIM Team",
+      "status": "published",
+      "image": "assets/travel/dubai.jpg",
+      "excerpt": "A simple checklist covering passport, visa, hotel, flight and insurance planning."
+    },
+    {
+      "id": "blog_5",
+      "title": "How TOURIM Customises a Package on Your Budget",
+      "category": "TOURIM Guide",
+      "author": "TOURIM Team",
+      "status": "published",
+      "image": "assets/travel/hero-kashmir-1600x520.jpg",
+      "excerpt": "Understand how destination, hotel, vehicle and date selection affect your final package cost."
+    },
+    {
+      "id": "blog_6",
+      "title": "Top Family-Friendly Destinations from Kolkata",
+      "category": "Family Travel",
+      "author": "TOURIM Team",
+      "status": "published",
+      "image": "assets/travel/kerala.jpg",
+      "excerpt": "Curated ideas for families looking for easy, comfortable and memorable holidays."
+    }
+  ],
+  "offers": [
+    {
+      "id": "offer_1",
+      "title": "Free Houseboat Stay",
+      "coupon": "KASHMIRHBFREE",
+      "status": "active",
+      "description": "Book Kashmir group tour and get free 1 night houseboat stay + 1 hour Shikara ride.",
+      "image": "assets/travel/kashmir.jpg",
+      "destination": "Kashmir",
+      "tag": "Kashmir Group Tour",
+      "validity": "Limited seats",
+      "discount": "Free 1N Houseboat"
+    },
+    {
+      "id": "offer_2",
+      "title": "Bali Honeymoon Add-on",
+      "coupon": "BALIBFFREE",
+      "status": "active",
+      "description": "Floating breakfast add-on for selected Bali honeymoon packages.",
+      "image": "assets/travel/offer-bali-1600x450.jpg",
+      "destination": "Bali",
+      "tag": "Honeymoon Special",
+      "validity": "Selected Bali packages",
+      "discount": "Free Add-on"
+    }
+  ],
+  "queries": [
+    {
+      "id": "#Q1248",
+      "name": "Rahul Sharma",
+      "phone": "9876543210",
+      "email": "rahul@example.com",
+      "package": "Adventure Explorer",
+      "destination": "Himachal",
+      "date": "2026-05-17",
+      "pax": "4 Adults",
+      "budget": "₹50,000",
+      "country": "India",
+      "source": "Website",
+      "status": "New",
+      "note": ""
+    },
+    {
+      "id": "#Q1247",
+      "name": "Priya Mehta",
+      "phone": "9876501234",
+      "email": "priya@example.com",
+      "package": "Goa Beach Holiday",
+      "destination": "Goa",
+      "date": "2026-05-17",
+      "pax": "2 Adults",
+      "budget": "₹30,000",
+      "country": "India",
+      "source": "WhatsApp",
+      "status": "Replied",
+      "note": "Asked for sea-view hotel."
+    },
+    {
+      "id": "#Q1246",
+      "name": "Amit Verma",
+      "phone": "9988776655",
+      "email": "amit@example.com",
+      "package": "Himalayan Trek",
+      "destination": "Himachal",
+      "date": "2026-05-16",
+      "pax": "6 Adults",
+      "budget": "₹90,000",
+      "country": "India",
+      "source": "Website",
+      "status": "Pending",
+      "note": ""
+    },
+    {
+      "id": "#Q1245",
+      "name": "Sneha Iyer",
+      "phone": "9080706050",
+      "email": "sneha@example.com",
+      "package": "Kerala Backwaters",
+      "destination": "Kerala",
+      "date": "2026-05-16",
+      "pax": "Family 5",
+      "budget": "₹75,000",
+      "country": "India",
+      "source": "Website",
+      "status": "Replied",
+      "note": ""
+    },
+    {
+      "id": "#Q1244",
+      "name": "Varun Singh",
+      "phone": "9000001111",
+      "email": "varun@example.com",
+      "package": "Dubai City Tour",
+      "destination": "Dubai",
+      "date": "2026-05-16",
+      "pax": "6 Adults",
+      "budget": "₹3,00,000",
+      "country": "India",
+      "source": "Facebook",
+      "status": "New",
+      "note": ""
+    }
+  ],
+  "analytics": {
+    "visitors": 128540,
+    "interested": 23876,
+    "enquiries": 2341,
+    "users": 2350,
+    "traffic": [
+      18000,
+      22000,
+      19500,
+      27000,
+      21000,
+      35000,
+      15000,
+      9000,
+      23000,
+      51000
+    ],
+    "pageViews": [
+      4000,
+      12000,
+      7000,
+      17000,
+      9000,
+      21000,
+      8000,
+      4500,
+      11000,
+      64640
+    ],
+    "devices": {
+      "Desktop": 48.2,
+      "Mobile": 38.2,
+      "Tablet": 10.6,
+      "Other": 2.5
+    },
+    "locations": {
+      "India": 38.6,
+      "USA": 18.2,
+      "UK": 8.7,
+      "Australia": 6.5,
+      "UAE": 5.9
+    }
+  },
+  "notifications": [
+    {
+      "id": "n1",
+      "title": "New query received from Rahul Sharma",
+      "text": "Adventure Explorer package",
+      "time": "2 min ago",
+      "read": false
+    },
+    {
+      "id": "n2",
+      "title": "Email sent successfully",
+      "text": "Goa Package",
+      "time": "15 min ago",
+      "read": false
+    },
+    {
+      "id": "n3",
+      "title": "New user registered",
+      "text": "John Doe joined the platform",
+      "time": "1 hour ago",
+      "read": true
+    },
+    {
+      "id": "n4",
+      "title": "New lead reminder",
+      "text": "Follow up with 5 pending queries",
+      "time": "2 hours ago",
+      "read": true
+    }
+  ],
+  "activity": [
+    {
+      "text": "Package update at a query from Priya Mehta",
+      "time": "10 min ago"
+    },
+    {
+      "text": "Package “Adventure Explorer” updated",
+      "time": "35 min ago"
+    },
+    {
+      "text": "New offer “Summer Special” created",
+      "time": "2 hours ago"
+    },
+    {
+      "text": "Page “About Us” updated",
+      "time": "3 hours ago"
+    },
+    {
+      "text": "Homepage blocks updated",
+      "time": "4 hours ago"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Rakesh Kumar Saho",
+      "place": "Kolkata City Tour",
+      "rating": 5,
+      "text": "Good planning, clear communication and comfortable local sightseeing support."
+    },
+    {
+      "name": "Millon Ghosh",
+      "place": "Darjeeling",
+      "rating": 5,
+      "text": "TOURIM made the itinerary simple and budget-friendly for our hill trip."
+    },
+    {
+      "name": "Priya Mehta",
+      "place": "Goa",
+      "rating": 4.8,
+      "text": "Fast response and useful hotel suggestions for our family holiday."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can TOURIM customise packages?",
+      "a": "Yes. TOURIM customises packages based on travel date, budget, hotel type, transport and destination preference."
+    },
+    {
+      "q": "How can I book a package?",
+      "a": "Submit the enquiry form or contact TOURIM by phone/WhatsApp. The team will share quotation and booking steps."
+    },
+    {
+      "q": "Does the package include train or flight?",
+      "a": "It depends on the selected package. Each package clearly lists inclusions and exclusions."
+    },
+    {
+      "q": "Can I get group tour and honeymoon packages?",
+      "a": "Yes. TOURIM supports group tours, family trips, honeymoon plans, domestic and international packages."
+    }
+  ],
+  "gallery": [
+    {
+      "title": "Kashmir Lake & Valley",
+      "image": "assets/travel/kashmir.jpg",
+      "tag": "Kashmir"
+    },
+    {
+      "title": "Kashmir Hero Landscape",
+      "image": "assets/travel/hero-kashmir-1600x520.jpg",
+      "tag": "Mountain"
+    },
+    {
+      "title": "Bali Cliffside Escape",
+      "image": "assets/travel/bali.jpg",
+      "tag": "International"
+    },
+    {
+      "title": "Bali Honeymoon Sunset",
+      "image": "assets/travel/offer-bali-1600x450.jpg",
+      "tag": "Honeymoon"
+    },
+    {
+      "title": "Darjeeling Tea Garden",
+      "image": "assets/travel/darjeeling.jpg",
+      "tag": "Hill Station"
+    },
+    {
+      "title": "Dubai Luxury Skyline",
+      "image": "assets/travel/dubai.jpg",
+      "tag": "Luxury"
+    },
+    {
+      "title": "Andaman Crystal Beach",
+      "image": "assets/travel/andaman.jpg",
+      "tag": "Island"
+    },
+    {
+      "title": "Sikkim Monastery View",
+      "image": "assets/travel/sikkim.jpg",
+      "tag": "North East"
+    },
+    {
+      "title": "Kerala Backwater Stay",
+      "image": "assets/travel/kerala.jpg",
+      "tag": "Backwater"
+    },
+    {
+      "title": "Goa Beach Holiday",
+      "image": "assets/travel/goa.jpg",
+      "tag": "Beach"
+    }
+  ],
+  "roles": [
+    {
+      "id": "role_super_admin",
+      "name": "Super Admin",
+      "permissions": [
+        "all"
+      ],
+      "description": "Full business owner access"
+    },
+    {
+      "id": "role_admin",
+      "name": "Admin",
+      "permissions": [
+        "dashboard",
+        "cms",
+        "leads",
+        "analytics",
+        "media",
+        "payments"
+      ],
+      "description": "Operations admin access"
+    },
+    {
+      "id": "role_sales",
+      "name": "Sales Executive",
+      "permissions": [
+        "leads",
+        "payments",
+        "documents"
+      ],
+      "description": "Lead follow-up and booking payment access"
+    },
+    {
+      "id": "role_editor",
+      "name": "Content Editor",
+      "permissions": [
+        "cms",
+        "media",
+        "seo"
+      ],
+      "description": "Package, destination, blog and media access"
+    },
+    {
+      "id": "role_viewer",
+      "name": "Viewer",
+      "permissions": [
+        "dashboard"
+      ],
+      "description": "Read-only reporting access"
+    }
+  ],
+  "users": [
+    {
+      "id": "user_owner",
+      "name": "Aunkan Saha",
+      "email": "owner.tourim@gmail.com",
+      "username": "aunkan",
+      "role": "super_admin",
+      "status": "active",
+      "password_hash": "",
+      "created_at": "2026-06-10T00:00:00+05:30"
+    },
+    {
+      "id": "user_sales_1",
+      "name": "TOURIM Sales Team",
+      "email": "sales@tourim.local",
+      "username": "tourimsales",
+      "role": "sales",
+      "status": "active",
+      "password_hash": "",
+      "created_at": "2026-06-10T00:00:00+05:30"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "book_20260617_darjeeling",
+      "customer": "Millon Ghosh / Sukhen Ghosh",
+      "phone": "",
+      "email": "",
+      "package": "Monsoon in Darjeeling",
+      "destination": "Darjeeling",
+      "travel_date": "2026-06-17",
+      "pax": "2 Persons",
+      "total_amount": 13000,
+      "advance": 4500,
+      "balance": 8500,
+      "status": "Confirmed",
+      "hotel_plan": "Budget stay as per package",
+      "transport_plan": "NJP-Darjeeling-NJP local transport as per itinerary",
+      "created_at": "2026-06-10T00:00:00+05:30"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay_20260617_001",
+      "customer": "Millon Ghosh / Sukhen Ghosh",
+      "phone": "",
+      "package": "Monsoon in Darjeeling",
+      "amount": 4500,
+      "mode": "Cash/UPI",
+      "transaction_id": "ADVANCE-RECEIVED",
+      "status": "Received",
+      "payment_date": "2026-06-10",
+      "note": "Advance received; balance ₹8,500 due by 14 June 2026",
+      "created_at": "2026-06-10T00:00:00+05:30"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "invoice_sample_001",
+      "document_type": "invoice",
+      "customer": "Sample TOURIM Customer",
+      "package": "Kashmir Group Tour",
+      "amount": "13990",
+      "status": "Sample",
+      "generated_at": "2026-06-10T19:04:50.291106+00:00",
+      "url": "Generated from Production Tools"
+    }
+  ],
+  "vouchers": [
+    {
+      "id": "voucher_sample_001",
+      "document_type": "voucher",
+      "customer": "Sample TOURIM Customer",
+      "package": "Kashmir Group Tour",
+      "hotel_plan": "3★ Hotel + Houseboat",
+      "transport_plan": "Private/Group vehicle as per package",
+      "status": "Sample",
+      "generated_at": "2026-06-10T19:04:50.291106+00:00",
+      "url": "Generated from Production Tools"
+    }
+  ],
+  "media": [],
+  "auditLogs": [],
+  "whatsappTemplates": [
+    {
+      "id": "wa_new_lead",
+      "title": "New Lead Reply",
+      "message": "Hello {{name}}, thanks for contacting TOURIM. We received your enquiry for {{destination}}. Our team will share the best package shortly."
+    },
+    {
+      "id": "wa_payment_reminder",
+      "title": "Payment Reminder",
+      "message": "Hello {{name}}, this is a payment reminder for your TOURIM package {{package}}. Balance due: ₹{{balance}}. Please confirm once paid."
+    },
+    {
+      "id": "wa_booking_confirmed",
+      "title": "Booking Confirmed",
+      "message": "Hello {{name}}, your TOURIM booking for {{package}} is confirmed. Travel date: {{travel_date}}. Thank you for choosing TOURIM."
+    }
+  ],
+  "seoRoutes": [
+    {
+      "type": "package",
+      "slug": "kashmir-group-tour",
+      "target": "package-detail.html?slug=kashmir-group-tour",
+      "title": "Kashmir Group Tour Package | TOURIM",
+      "status": "active"
+    },
+    {
+      "type": "destination",
+      "slug": "darjeeling",
+      "target": "destination-detail.html?slug=darjeeling",
+      "title": "Darjeeling Tour Packages | TOURIM",
+      "status": "active"
+    },
+    {
+      "type": "blog",
+      "slug": "best-time-to-visit-kashmir",
+      "target": "blog-detail.html?slug=best-time-to-visit-kashmir",
+      "title": "Best Time to Visit Kashmir | TOURIM",
+      "status": "active"
+    }
+  ],
+  "advancedAnalytics": {
+    "conversionRate": 0,
+    "topPackage": "Kashmir Group Tour",
+    "topDestination": "Kashmir",
+    "lastCalculated": "2026-06-10T00:00:00+05:30"
+  },
+  "updated_at": "2026-08-09T10:27:13.973Z",
+  "launchReadiness": {
+    "softwarePackageCompletion": "100%",
+    "demoCompletion": "100%",
+    "productionCodeCompletion": "100%",
+    "liveAccountActivation": "Requires real hosting/domain/SMTP/Razorpay/WhatsApp credentials",
+    "lastAudit": "2026-06-10T19:04:50.291106+00:00",
+    "status": "Software complete; external account keys configurable from launch wizard"
+  },
+  "launchChecklist": [
+    {
+      "item": "Upload ZIP contents to hosting public_html",
+      "status": "ready"
+    },
+    {
+      "item": "Set APP_URL in launch wizard",
+      "status": "ready"
+    },
+    {
+      "item": "Run api/install_mysql.php after DB credentials",
+      "status": "ready"
+    },
+    {
+      "item": "Set SMTP app password in private .env",
+      "status": "ready"
+    },
+    {
+      "item": "Set Razorpay keys when payment gateway is approved",
+      "status": "ready"
+    },
+    {
+      "item": "Set WhatsApp Business Cloud API token after Meta approval",
+      "status": "ready"
+    },
+    {
+      "item": "Change default demo password after first login",
+      "status": "ready"
+    },
+    {
+      "item": "Create server backup from Production Tools",
+      "status": "ready"
+    }
+  ],
+  "integrations": {
+    "smtp": "implemented; awaits live SMTP password",
+    "razorpay": "implemented through api/integrations.php; awaits live keys",
+    "whatsapp": "implemented through api/integrations.php; falls back to wa.me link until API approved",
+    "upi": "manual UPI tracking supported",
+    "mysql": "implemented with JSON fallback"
+  },
+  "photoVersion": 3,
+  "offerVersion": 2
+}

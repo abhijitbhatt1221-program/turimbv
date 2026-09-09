@@ -1,0 +1,16 @@
+/*
+Theme Name: TOURIM InfinityFree WordPress
+Theme URI: https://tourim.great-site.net/
+Author: TOURIM
+Author URI: https://tourim.great-site.net/
+Description: WordPress-ready TOURIM travel agency theme converted from the InfinityFree static/PHP build. Includes TOURIM home, packages, destinations, hotels, blogs, offers, gallery, policy pages, and enquiry flow.
+Version: 1.0.0
+Requires at least: 5.9
+Tested up to: 6.6
+Requires PHP: 7.4
+License: Proprietary / Client Project
+Text Domain: tourim-infinityfree-wp
+Tags: travel, agency, custom-theme, responsive, infinityfree
+*/
+
+/* Main design CSS is loaded from /css/styles.css by each TOURIM page template. */
