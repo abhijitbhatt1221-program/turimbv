@@ -51,7 +51,7 @@
     document.querySelectorAll('[data-tagline]').forEach(el=>el.textContent=s.tagline||'See the world, Feel with TOURIM');
     document.querySelectorAll('[data-phone]').forEach(el=>el.textContent=s.phone||'7384732179');
     document.querySelectorAll('[data-email]').forEach(el=>el.textContent=s.email||'owner.tourim@gmail.com');
-    document.querySelectorAll('[data-address]').forEach(el=>el.textContent=s.address||'Ashokenagar Kachua More, North 24 Parganas, 743272');
+    document.querySelectorAll('[data-address]').forEach(el=>el.textContent=s.address||'Kachua more, Ashoknagar to Jirat road, Habra');
     document.querySelectorAll('[data-wa]').forEach(el=>{el.href='https://wa.me/91'+(s.whatsapp||s.phone||'7384732179')});
     document.querySelectorAll('[data-tel]').forEach(el=>{el.href='tel:'+(s.phone||'7384732179')});
   }

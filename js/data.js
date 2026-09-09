@@ -21,7 +21,7 @@ const TOURIM_DEFAULTS = {
     phone: '7384732179',
     phone2: '8972076635',
     whatsapp: '7384732179',
-    address: 'Ashokenagar Kachua More, North 24 Parganas, 743272',
+    address: 'Kachua more, Ashoknagar to Jirat road, Habra',
     currency: 'INR',
     footerCredit: 'Developed by Abhijit Bhattacharjee',
     adminUsername: 'tourimadmin',

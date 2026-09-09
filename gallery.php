@@ -48,7 +48,7 @@ if (!defined('ABSPATH')) { exit; }
       <div><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/tourim-logo-clean.png" alt="TOURIM" style="height:64px;background:#fff;border-radius:14px;padding:4px"><p data-tagline>See the world, Feel with TOURIM</p><div class="action-row"><a class="btn teal" data-wa target="_blank">WhatsApp</a></div></div>
       <div><h4>Explore</h4><a href="packages.html">Packages</a><br><a href="services.html">Services</a><br><a href="destinations.html">Destinations</a><br><a href="hotels.html">Hotels</a><br><a href="blogs.html">Blogs</a><br><a href="gallery.html">Gallery</a></div>
       <div><h4>Contact</h4><p>Phone: <span data-phone>7384732179</span><br>Email: <span data-email>owner.tourim@gmail.com</span></p></div>
-      <div><h4>Address</h4><p data-address>Ashokenagar Kachua More, North 24 Parganas, 743272</p></div>
+      <div><h4>Address</h4><p data-address>Kachua more, Ashoknagar to Jirat road, Habra</p></div>
     </div>
     <div class="footer-legal" aria-label="TOURIM policy links">
       <b>Policy &amp; Terms</b>

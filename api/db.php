@@ -297,3 +297,55 @@ if ($action === 'event') {
 }
 
 respond(['ok' => false, 'error' => 'Unknown action'], 404);
+
+if ($action === 'save_user') {
+    require_permission('manage_settings');
+    $input = body_json();
+    $userData = $input['user'] ?? [];
+    if (empty($userData['id']) || empty($userData['name']) || empty($userData['email'])) {
+        respond(['ok' => false, 'error' => 'Invalid user data'], 400);
+    }
+    
+    $db['users'] = $db['users'] ?? [];
+    $found = false;
+    foreach ($db['users'] as &$u) {
+        if ($u['id'] === $userData['id']) {
+            $u['name'] = $userData['name'];
+            $u['email'] = $userData['email'];
+            $u['role'] = $userData['role'] ?? 'viewer';
+            $u['status'] = $userData['status'] ?? 'active';
+            if (!empty($userData['password'])) {
+                $u['password_hash'] = password_hash($userData['password'], PASSWORD_DEFAULT);
+            }
+            $found = true;
+            break;
+        }
+    }
+    unset($u);
+    
+    if (!$found) {
+        if (empty($userData['password'])) {
+            respond(['ok' => false, 'error' => 'Password required for new user'], 400);
+        }
+        $userData['password_hash'] = password_hash($userData['password'], PASSWORD_DEFAULT);
+        unset($userData['password']);
+        $db['users'][] = $userData;
+    }
+    
+    audit_log($db, 'save_user', 'Saved user: ' . $userData['email']);
+    write_db($dbFile, $db);
+    respond(['ok' => true]);
+}
+
+if ($action === 'delete_user') {
+    require_permission('manage_settings');
+    $input = body_json();
+    $id = $input['id'] ?? '';
+    
+    $db['users'] = array_values(array_filter($db['users'] ?? [], fn($u) => $u['id'] !== $id));
+    
+    audit_log($db, 'delete_user', 'Deleted user: ' . $id);
+    write_db($dbFile, $db);
+    respond(['ok' => true]);
+}
+

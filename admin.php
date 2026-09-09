@@ -33,7 +33,7 @@ if (!defined('ABSPATH')) { exit; }
   <main class="query-app" id="queryApp" hidden>
     <header class="query-header">
       <div><span>TOURIM</span><h1>Customer Queries</h1><small class="query-live"><i></i> Live updates every 3 seconds</small></div>
-      <div class="query-actions"><button id="refreshBtn">Refresh</button><button id="exportExcelBtn" style="background:#0f766e;">Export Excel (.xlsx)</button><button id="exportBtn">Export CSV</button><a href="<?php echo esc_url(home_url('/')); ?>">View Site</a><button class="danger" id="logoutBtn">Log Out</button></div>
+      <div class="query-actions"><button id="refreshBtn">Refresh</button><button id="exportExcelBtn" style="background:#0f766e;">Export Excel (.xlsx)</button><button id="exportBtn">Export CSV</button><a href="admin_analytics.php">Analytics</a><a href="admin_users.php">Sub Admins</a><a href="<?php echo esc_url(home_url('/')); ?>">View Site</a><button class="danger" id="logoutBtn">Log Out</button></div>
     </header>
 
     <section class="query-stats" aria-label="Query summary">

@@ -158,7 +158,7 @@ if (!defined('ABSPATH')) { exit; }
         </div>
         <div><h4>Explore</h4><a href="#packages">Packages</a><br><a href="services.html">Services</a><br><a href="#destinations">Destinations</a><br><a href="#hotels">Hotels</a><br><a href="#blogs">Blogs</a></div>
         <div><h4>Contact</h4><p id="footerContact">Phone: 7384732179<br>Email: owner.tourim@gmail.com</p></div>
-        <div><h4>Address</h4><p id="footerAddress">Ashokenagar Kachua More, North 24 Parganas, 743272</p></div>
+        <div><h4>Address</h4><p id="footerAddress">Kachua more, Ashoknagar to Jirat road, Habra</p></div>
       </div>
       <div class="footer-legal" aria-label="TOURIM policy links">
         <b>Policy &amp; Terms</b>
