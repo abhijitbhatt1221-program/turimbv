@@ -33,7 +33,7 @@ if (!defined('ABSPATH')) { exit; }
         <a href="contact.html">Get Quote</a>
       </nav>
       <div class="nav-actions">
-        <a class="pill phone-pill" id="phoneLink" href="https://wa.me/917384732179?text=Hi%20TOURIM%2C%20I%20want%20to%20plan%20a%20tour" target="_blank" rel="noopener">7384732179</a>
+        <a class="pill phone-pill" id="phoneLink" href="tel:7384732179">☎ 7384732179</a>
         <a class="btn primary" href="contact.html">Plan Trip</a>
         <button class="btn ghost mobile-menu" id="mobileMenuBtn">☰</button>
       </div>
