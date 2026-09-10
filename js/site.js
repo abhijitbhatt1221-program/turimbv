@@ -149,7 +149,7 @@ function renderPackages(){
       <div class="card-content">
         <h3>${p.title}</h3><p>${p.short||''}</p>
         <div class="meta-row"><span class="badge">${p.destination}</span><span class="badge green">${p.duration}</span></div>
-        <div class="price-row"><span class="price">${money(p.price)}</span><button class="btn teal" onclick="event.stopPropagation(); openPackage('${p.id}')">View Details</button></div>
+        <div class="price-row"><span class="price" style="display:flex; flex-direction:column; align-items:flex-start; line-height:1.2;">${(p.id.charCodeAt(0)+p.id.charCodeAt(p.id.length-1))%2===0 ? `<span style="text-decoration:line-through; font-size:12px; color:#94a3b8; font-weight:normal;">${money(Math.round(p.price * (1 + (((p.id.charCodeAt(1)*7)%16)+5) / 100)))}</span>` : ""}<span>${money(p.price)}</span></span><button class="btn teal" onclick="event.stopPropagation(); openPackage('${p.id}')">View Details</button></div>
       </div>
     </article>`).join('') || '<p>No packages found.</p>';
   grid.querySelectorAll('.home-package-link').forEach(card=>{
@@ -188,7 +188,7 @@ function openPackage(id){
   track('package_view','package',id);
   document.getElementById('modalBadge').textContent=p.category;
   document.getElementById('modalTitle').textContent=p.title;
-  document.getElementById('modalBody').innerHTML=`<div class="modal-package-media" style="${itemMediaStyle(p)}">${itemImage(p,p.title)}</div><div class="modal-package-content"><p>${p.short}</p><div class="meta-row"><span class="badge">${p.destination}</span><span class="badge green">${p.duration}</span><span class="badge orange">${money(p.price)} per person</span></div><h3>Itinerary</h3><p>${p.itinerary}</p><h3>Inclusions</h3><p>${p.inclusions}</p><h3>Exclusions</h3><p>${p.exclusions}</p><a href="#quote" class="btn primary" onclick="document.getElementById('detailModal').style.display='none'; document.querySelector('[name=destination]').value='${p.destination}'">Send Enquiry</a></div>`;
+  document.getElementById('modalBody').innerHTML=`<div class="modal-package-media" style="${itemMediaStyle(p)}">${itemImage(p,p.title)}</div><div class="modal-package-content"><p>${p.short}</p><div class="meta-row"><span class="badge">${p.destination}</span><span class="badge green">${p.duration}</span><span class="badge orange" style="display:inline-flex; flex-direction:column; align-items:flex-start; line-height:1.1; padding:4px 8px;">${(p.id.charCodeAt(0)+p.id.charCodeAt(p.id.length-1))%2===0 ? `<span style="text-decoration:line-through; font-size:10px; color:rgba(255,255,255,0.7); font-weight:normal;">${money(Math.round(p.price * (1 + (((p.id.charCodeAt(1)*7)%16)+5) / 100)))}</span>` : ""}<span>${money(p.price)} per person</span></span></div><h3>Itinerary</h3><p>${p.itinerary}</p><h3>Inclusions</h3><p>${p.inclusions}</p><h3>Exclusions</h3><p>${p.exclusions}</p><a href="#quote" class="btn primary" onclick="document.getElementById('detailModal').style.display='none'; document.querySelector('[name=destination]').value='${p.destination}'">Send Enquiry</a></div>`;
   document.getElementById('detailModal').style.display='grid';
 }
 function setupSearch(){
