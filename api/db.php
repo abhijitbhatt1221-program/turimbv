@@ -191,6 +191,12 @@ if ($action === 'update_query') {
     foreach ($db['queries'] as &$query) {
         if ((string)($query['id'] ?? '') === $queryId) {
             $query['status'] = $status;
+            if (isset($input['note'])) {
+                $query['note'] = trim(strip_tags((string)$input['note']));
+            }
+            if (isset($input['admin_note'])) {
+                $query['admin_note'] = trim(strip_tags((string)$input['admin_note']));
+            }
             $query['updated_at'] = date('c');
             $updated = $query;
             break;

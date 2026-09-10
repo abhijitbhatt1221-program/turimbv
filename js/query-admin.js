@@ -32,7 +32,12 @@ function render(){
 
 function showQuery(id){
   const q=queryList().find(item=>item.id===id);if(!q)return;
-  $('queryDetail').innerHTML=`<h2>${esc(q.name||'Customer')}</h2><div class="detail-grid"><div><span>Phone</span><b>${esc(q.phone||'-')}</b></div><div><span>Email</span><b>${esc(q.email||'-')}</b></div><div><span>Package</span><b>${esc(q.package||'-')}</b></div><div><span>Destination</span><b>${esc(q.destination||'-')}</b></div><div><span>Travel date</span><b>${esc(q.date||'-')}</b></div><div><span>Travellers</span><b>${esc(q.pax||'-')}</b></div><div><span>Budget</span><b>${esc(q.budget||'-')}</b></div><div><span>Source</span><b>${esc(q.source||'-')}</b></div></div><div class="detail-note"><span>Note</span><p>${esc(q.note||'No note added.')}</p></div>`;
+  $('queryDetail').innerHTML=`<h2>${esc(q.name||'Customer')}</h2><div class="detail-grid"><div><span>Phone</span><b>${esc(q.phone||'-')}</b></div><div><span>Email</span><b>${esc(q.email||'-')}</b></div><div><span>Package</span><b>${esc(q.package||'-')}</b></div><div><span>Destination</span><b>${esc(q.destination||'-')}</b></div><div><span>Travel date</span><b>${esc(q.date||'-')}</b></div><div><span>Travellers</span><b>${esc(q.pax||'-')}</b></div><div><span>Budget</span><b>${esc(q.budget||'-')}</b></div><div><span>Source</span><b>${esc(q.source||'-')}</b></div></div><div class="detail-note"><span>Customer Note</span><p>${esc(q.note||'No note added.')}</p></div>
+  <div class="admin-note" style="margin-top: 15px;">
+    <span>Admin Note</span>
+    <textarea id="adminNote_${esc(q.id)}" style="width:100%; min-height:80px; margin-top:5px; padding:8px; border:1px solid #ccc; border-radius:4px; font-family:inherit;">${esc(q.admin_note||'')}</textarea>
+    <button onclick="saveAdminNote('${esc(q.id)}')" style="margin-top:8px; padding:6px 12px; background:#0f766e; color:white; border:none; border-radius:4px; cursor:pointer;">Save Note</button>
+  </div>`;
   $('queryDialog').showModal();
 }
 
@@ -368,3 +373,19 @@ if(localStorage.getItem('tourim_admin_session')==='true'){
   $('loginScreen').hidden=true;$('queryApp').hidden=false;
   loadQueries({announceNew:false,force:true}).then(ok=>{if(ok)startLiveUpdates()});
 }
+
+
+window.saveAdminNote = async function(id) {
+  const noteEl = document.getElementById('adminNote_' + id);
+  const newNote = noteEl.value;
+  const q = queryList().find(item=>item.id===id);
+  if(!q) return;
+  try {
+    const data = await queryApi('update_query', { id: id, status: q.status, admin_note: newNote });
+    q.admin_note = newNote; // update locally
+    queryVersion = data.version || queryVersion;
+    notify('Note saved successfully');
+  } catch(error) {
+    notify(error.message || 'Could not save note');
+  }
+};
